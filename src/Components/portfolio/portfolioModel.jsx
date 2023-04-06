@@ -1,5 +1,4 @@
 import React from 'react'
-import './Portfolio.css'
 
 import img1 from "../../assets/profilesagar.jpg";
 
