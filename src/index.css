@@ -11,8 +11,9 @@
 }
 
 :root {
-  --color-bg: #285663;
-  --color-bg-variant: #2c2c6c;
+  --color-bg: #2F6479;
+  --color-bg-variant:		#2d1855;
+  --color-bg-footer: 	#87CEEB;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
@@ -61,7 +62,7 @@ h1{
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 8rem;  
 }
 
 section > h2, section > h5 {
@@ -75,12 +76,16 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--color-bg-variant);
+  color: var(--color-light);
 }
 
 a {
-  color: var(--color-light);
+  color: var(--color-primary);
   transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
 }
 
 .btn {
