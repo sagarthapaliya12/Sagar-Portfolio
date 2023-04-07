@@ -44,6 +44,10 @@ form{
     gap: 1.2rem;
 }
 
+button {
+    margin: auto;
+}
+
 input, textarea {
     width: 100%;
     padding: 1.5rem;
